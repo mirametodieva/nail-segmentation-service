@@ -10,7 +10,7 @@ import traceback
 app = Flask(__name__)
 
 ROBOFLOW_API_KEY = "iZLItqoQ2uKAiATHnqdd"
-ROBOFLOW_URL = "https://detect.roboflow.com/manicure-segmentation/3?api_key=" + ROBOFLOW_API_KEY
+ROBOFLOW_URL = "https://detect.roboflow.com/nails_segmentation-vhnmw-p6sip-mejkj/2?api_key=" + ROBOFLOW_API_KEY
 
 @app.route('/segment-nails', methods=['POST'])
 def segment_nails():
